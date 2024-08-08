@@ -1,0 +1,22 @@
+/* Wildcard selector to override default styles added by browser */
+/* Targeted elements will have size defined as width/height + padding + border, with border and margins set at 0.*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+
+header {
+    background-color: #388E3C;
+}
+
+main{
+
+}
+
+footer {
+
+}
+
