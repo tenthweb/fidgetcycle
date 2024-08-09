@@ -1,3 +1,9 @@
+/* Import font family "Dosis" from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+
 /* Wildcard selector to override default styles added by browser */
 /* Targeted elements will have size defined as width/height + padding + border, with border and margins set at 0.*/
 * {
@@ -8,8 +14,21 @@
 
 /* General styles */
 
+body {
+
+    h1, h2, h3 {
+        font-family: 'Dosis', sans-serif;
+    color: #e3eae3;
+    text-transform: uppercase;
+    background-color: #0d2b0e;
+    }
+
+
+}
+
 header {
-    background-color: #388E3C;
+    
+
 }
 
 main{
@@ -17,6 +36,7 @@ main{
 }
 
 footer {
+
 
 }
 
