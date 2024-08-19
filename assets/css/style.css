@@ -37,7 +37,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    height:30%;
+    height: 11vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,7 +49,7 @@ header {
     object-fit: scale-down;*/
       
     max-width:70%;
-    width:auto
+    height:7vh;
 }
 
 nav {
@@ -68,7 +68,6 @@ nav a {
     color: #fffbf3;
     font-family: sans-serif;
     font-size: 300%;
-    
 }
 
 
@@ -85,15 +84,12 @@ https://stackoverflow.com/questions/8846075/css3-unchecked-pseudo-class */
     display: none;
 }
 
-i.fa-solid{
+i.fa-solid {
     color: #e3eae3;
-    font-size:100px ;
+    font-size:5vh;
 }
 
-i.fa-xmark{
-    color: #e3eae3;
-    font-size:117px ;
-}
+
 
 
 #nav-toggle:checked~.hamburger-nav-icon{
@@ -105,8 +101,10 @@ i.fa-xmark{
 
 }
 main{
-    flex: 1 0 auto;
-    top: 30vh;
+    position:absolute;
+    flex: auto;
+    top:11vh;
+    overflow-y: auto;
     display:flex;
     flex-direction: column;
 }
