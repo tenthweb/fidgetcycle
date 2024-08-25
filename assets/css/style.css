@@ -22,12 +22,19 @@ body {
 }
 
 
-h1, h2, h3 {
+h1 {
     font-family: 'Dosis', sans-serif;
 color: #fffbf4;
 text-transform: uppercase;
 letter-spacing: 3px;
 
+}
+
+h2{
+    font-family: 'Dosis', sans-serif;
+color: #00712D;
+text-transform: uppercase;
+letter-spacing: 2px;
 }
 
 header {
@@ -124,20 +131,37 @@ i.fa-solid {
 main{
     position:absolute;
     top:11vh;
-    bottom:-11vh;
+    bottom:0;
     overflow-y: auto;
     display:flex;
     flex-direction: column;
-
+    text-align: center;
     background-color:#fffbf4;
+}
+
+main p {
+    color:#00712D
 }
 
 footer {
 
     position:absolute;
-    bottom:-11vh;
+    bottom:0;
     width:100%;
+    height:auto;
     background-color: #FF9100;
 
+}
+
+#contact-details {
+    float: left;
+    width:50%;
+
+}
+
+#social-media {
+    float:right;
+    width:50%;
+    
 }
 
