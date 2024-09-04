@@ -143,6 +143,10 @@ main p {
     color:#00712D
 }
 
+#signup-main {
+    background: url("../images/signup-background.webp") no-repeat center center/cover;
+}
+
 footer {
 
     position:absolute;
