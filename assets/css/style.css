@@ -143,6 +143,15 @@ main p {
     color:#00712D
 }
 
+#products-box {
+    display: flex;
+    flex-direction:column;
+}
+
+#products-box img {
+    max-width: 100vw;
+}
+
 #signup-main {
     background: url("../images/signup-background.webp") no-repeat center center/cover;
 }
