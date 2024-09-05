@@ -149,7 +149,9 @@ main p {
 }
 
 #products-box img {
+    width: 100%;
     max-width: 100vw;
+
 }
 
 #signup-main {
