@@ -15,9 +15,16 @@
 /* General styles */
 
 body {
+    
+    /*experiment bug fix */
+    
+    display:flex;
+    flex-direction:column;
+
+    /*experiment bug fix end */
+
 
     min-height: 100vh;
-
 }
 
 
@@ -125,10 +132,17 @@ i.fa-solid {
 
 }
 main{
+
+    /*experiment bug fix (footer issue
+
     position:absolute;
-    top:11vh;
+
+    experiment bug fix (footer issue) end */
+    margin-top:11vh;
     bottom:0;
+    flex:1;
     overflow-y: auto;
+
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -169,8 +183,13 @@ main p {
 
 footer {
 
+    /* Experiment to fix footer bug
+
     position:absolute;
     bottom:0;
+    
+    */
+
     width:100%;
     height:auto;
     background-color: #FF9100;
