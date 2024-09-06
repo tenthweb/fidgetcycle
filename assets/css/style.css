@@ -1,7 +1,7 @@
 /* Import font family "Dosis" from Google Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
 /* Wildcard selector to override default styles added by browser */
@@ -25,6 +25,9 @@ body {
 
 
     min-height: 100vh;
+
+    font-family: 'Rubik', sans-serif;
+
 }
 
 
@@ -57,12 +60,15 @@ header {
     /*height:125px;/
     object-fit: scale-down;*/
     position:absolute;
+
     left:0;
     right:0;
+    margin: auto;
+
     top:2vh;
     max-width: 70%;
     height: 7vh;
-    margin: auto;
+    
     display: block;
 }
 
@@ -71,10 +77,9 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    padding: 0 2rem;
+    padding: 0.5rem 0 0.5rem;
     display: none;
     top: 99%;
-    padding-bottom:60px;
     text-align: center;
 
 
@@ -85,14 +90,16 @@ nav ul {
     list-style-type: none;
 }
 
+
 nav li {
     padding-bottom: 1rem;    
 }
 
+
 nav a {
     color: #fffbf4;
     font-family: sans-serif;
-    font-size: 300%;
+    font-size: 150%;
     text-decoration: none;
 
 }
@@ -116,8 +123,7 @@ i.fa-solid {
     color: #fffbf4;
     font-size:5vh;
     top: 3vh;
-    right: 2vw;
-    margin: 0 auto;
+    right: 5vw;
 }
 
 #nav-toggle:checked~.hamburger-nav-icon{
@@ -160,6 +166,10 @@ main p {
 
 /*styles for index.html */
 
+#signup-button {
+    padding: 0 20% 0
+
+}
 
 /* styles for what-we-do.html */
 
