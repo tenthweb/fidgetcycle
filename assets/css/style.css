@@ -40,11 +40,27 @@ letter-spacing: 3px;
 }
 
 h2{
-    font-family: 'Dosis', sans-serif;
+padding-top: 20px;
+font-family: 'Dosis', sans-serif;
 color: #00712D;
 text-transform: uppercase;
 letter-spacing: 2px;
+
 }
+
+button {
+    color:#fffbf4;
+    font-size: 150%;
+    background-color: #00712D;
+    padding: 10px 20px 10px;
+    border: 2px solid #001d0c;
+    border-radius: 4px;
+}
+
+
+
+
+/* specific styles */
 
 header {
     background-color: #00712D;
@@ -144,8 +160,9 @@ main{
     position:absolute;
 
     experiment bug fix (footer issue) end */
+
     margin-top:11vh;
-    bottom:0;
+    bottom:-11vh;
     flex:1;
     overflow-y: auto;
 
@@ -166,10 +183,6 @@ main p {
 
 /*styles for index.html */
 
-#signup-button {
-    padding: 0 20% 0
-
-}
 
 /* styles for what-we-do.html */
 
@@ -203,7 +216,9 @@ footer {
     width:100%;
     height:auto;
     background-color: #FF9100;
-    color:#001d0c
+    color:#001d0c;
+    padding: 5px 15px;
+    
 
 }
 
