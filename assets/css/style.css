@@ -162,9 +162,8 @@ main{
     experiment bug fix (footer issue) end */
 
     margin-top:11vh;
-    bottom:-11vh;
     flex:1;
-    overflow-y: auto;
+    
 
     display:flex;
     flex-direction: column;
@@ -212,7 +211,7 @@ footer {
     bottom:0;
     
     */
-
+    overflow-y: auto;
     width:100%;
     height:auto;
     background-color: #FF9100;
@@ -229,8 +228,14 @@ footer {
 }
 
 #social-media {
+
     float:right;
     width:50%;
     
+    
 }
 
+#social-media a {
+    color:#001d0c;
+    text-decoration: none;
+}
