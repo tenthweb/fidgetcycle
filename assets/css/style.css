@@ -43,7 +43,7 @@ padding-left: 2px;
 }
 
 h2{
-padding-top: 20px;
+padding: 18px 0;
 font-family: 'Dosis', sans-serif;
 color: #00712D;
 text-transform: uppercase;
@@ -186,7 +186,7 @@ main{
     flex-direction: column;
     text-align: center;
     background-color:#fffbf4;
-    /*    padding:5%; */
+    /*    padding:5%; */ 
 
 }
 
@@ -198,6 +198,32 @@ main p {
 }
 
 /*styles for index.html */
+
+#intro-text {
+    position:relative;
+    background: url("../images/fidget-spinner-hand.jpeg") no-repeat center;
+    background-size:100%;
+  
+}
+
+#intro-text::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color:#fffbf44A;
+    background-size:100%;
+
+}
+
+#intro-text-content{
+    position: relative;
+    z-index: 2;
+
+}
 
 
 /* styles for what-we-do.html */
