@@ -206,6 +206,8 @@ main p {
   
 }
 
+/* use the ::before pseudo-class to make a layer over the background image */
+
 #intro-text::before{
     position: absolute;
     content: '';
@@ -233,12 +235,12 @@ main p {
 /* styles for what-we-do.html */
 
 
-#products-box {
+#collect-process, #products-box {
     display: flex;
     flex-direction:column;
 }
 
-#products-box img {
+#collect-process, #products-box  img {
     width: 100vw;
     max-width: 100%;
 
