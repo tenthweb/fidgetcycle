@@ -1,110 +1,125 @@
 <!DOCTYPE html>
-<html lang= "en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <title>FidgetCycle</title>
+    <title>FidgetCycle</title>
 
-        <!--favicon generated at https://favicon.io/favicon-converter/-->
-       
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons//favicon-16x16.png">
-        <link rel="manifest" href="assets/icons/site.webmanifest">
-        
+    <!--favicon generated at https://favicon.io/favicon-converter/-->
 
-        <!-- Stylesheet-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons//favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/site.webmanifest">
 
-        <link rel="stylesheet" href = "assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            
-            <!--TODO: Improve this flexbox setup--> 
-            <h1>
-                
-            </h1>
 
-            <!-- logo -->
-             
-            <a href="index.html">
-                <img class="header-logo" src="assets/images/header-logo.webp" alt="Fidgetcycle logo">
-                </a>             
+    <!-- Stylesheet-->
 
-            <!-- Navigation bar -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-                
-            <label for="nav-toggle" class="nav-icon hamburger-nav-icon"><i class="fa-solid fa-bars"></i></label>
-            <label for="nav-toggle" class="nav-icon x-nav-icon"><i class="fa-solid fa-xmark"></i></label>
+<body>
+    <header>
 
-            <nav>
-                <ul id='menu'>
-                    <li>
-                        <a href="index.html" class="active">Home</a>
-                    </li>
-                    <li>
-                        <a href="what-we-do.html">What we do</a>
-                    </li>
-                    <li>
-                        <a href="signup.html">Sign Up</a>
-                    </li>
-                </ul>
-            </nav>
+        <!--TODO: Improve this flexbox setup-->
+        <h1>
 
-        </header>
+        </h1>
 
-        <main id="signup-main">
+        <!-- logo -->
 
-            
-            <h2>
+        <a href="index.html">
+            <img class="header-logo" src="assets/images/header-logo.webp" alt="Fidgetcycle logo">
+        </a>
+
+        <!-- Navigation bar -->
+
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+
+        <label for="nav-toggle" class="nav-icon hamburger-nav-icon"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-toggle" class="nav-icon x-nav-icon"><i class="fa-solid fa-xmark"></i></label>
+
+        <nav>
+            <ul id='menu'>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="what-we-do.html">What we do</a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="signup-main">
+
+
+        <h2>
             Putting a new spin on recycling.
-            </h2>
+        </h2>
 
-            <section id = "signup-text">
-                Sign up to get alerts when our collection team is visiting your area!
-            </section>
-            <section>
-                <form>
-                    <id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+        <section id="signup-text">
+            Sign up to get alerts when our collection team is visiting your area!
+        </section>
+        <section>
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <div id="signup-form-body">
+
+                    <div id="first-name-line">
                         <label for="first-name">First Name</label>
                         <input type="text" name="first_name" id="first-name" required>
-                        <br>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last_name" id="last-name"required>
-                        <br>
-                        <label for="email-address">Email Address</label>
-                        <input type="email" name="email_address" id="email-address" required>
-                        <br>
 
-                        <button type="submit" class="submit-button">Sign up!</button>
-                </form>
-            </section>
-            
-            
-        
+                    </div>
+
+                    <div id="last-name-line">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" required>
+                    
+                    </div>
+                    <div id="email-address-line">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" required>
+                    </div>
+                </div>
+
+                </div>
+                <div>
+                    <button type="submit" class="submit-button">Sign up!</button>
+                </div>
+
+            </form>
+        </section>
 
 
-    
-        </main>
-        <footer>
-            <div id="contact-details">
-                100 Tolka Quay Road
-                <br>
-                Dublin Port
-                <br>
-                Dublin 1
-                <br>
-                Ireland
-            </div>        
-            <div id="social-media">
+
+
+
+
+    </main>
+    <footer>
+        <div id="contact-details">
+            100 Tolka Quay Road
+            <br>
+            Dublin Port
+            <br>
+            Dublin 1
+            <br>
+            Ireland
+        </div>
+        <div id="social-media">
             Facebook
             Twitter / X
             Instagram
             Youtube
-            </div>
-        </footer>
-        <script src="https://kit.fontawesome.com/1bf6198c27.js" crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/1bf6198c27.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

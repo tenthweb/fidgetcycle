@@ -57,7 +57,7 @@ button {
     background-color: #00712D;
     padding: 10px 20px 10px;
     border: 2px solid #001d0c;
-    border-radius: 8pythonpx;
+    border-radius: 8px;
 }
 
 
@@ -192,7 +192,7 @@ main{
 
 
 main p {
-    color:#001d0c;
+    color:#201300;
     padding: 5%;
 
 }
@@ -225,6 +225,10 @@ main p {
 
 }
 
+#signup-button {
+    margin:50px
+}
+
 
 /* styles for what-we-do.html */
 
@@ -245,6 +249,31 @@ main p {
 #signup-main {
     background: url("../images/signup-background.webp") no-repeat center center/cover;
 }
+
+
+#signup-form-body {
+    margin: 12px 0;
+}
+
+#signup-form label{
+    float:left;
+    width:35%;
+    text-align: right;
+}
+
+
+#signup-form label, input{
+
+    margin: 10px 0;
+}
+
+
+#signupform input {
+float:right;
+width:55%;
+}
+
+
 
 footer {
 
@@ -282,3 +311,15 @@ footer {
     color:#001d0c;
     text-decoration: none;
 }
+
+/* media queries for larger phones or phones in landscape mode */
+
+@media screen and (min-width: 576px){
+
+}
+
+@media screen and (min-width: 576px){
+
+}
+
+
