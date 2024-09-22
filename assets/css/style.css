@@ -15,6 +15,8 @@
 /* General styles */
 
 body {
+
+    background-color:#001d0c;
     
     /*experiment bug fix */
     
@@ -25,7 +27,7 @@ body {
 
 
     min-height: 100vh;
-
+    height:100%;
     font-family: 'Rubik', sans-serif;
 
 }
@@ -354,6 +356,9 @@ footer {
     
     
     .container {
+        display:flex;
+        flex-direction: column;
+        min-height:100vh;
         margin: 0 10%
     }
     header {
