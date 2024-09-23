@@ -278,7 +278,7 @@ main p {
 #signup-form-background {
     display: table;
     position:absolute;
-    background-color: rgba(255, 251, 244, 0.4);
+    background-color: rgba(255, 251, 244, 0.5);
     z-index: 1;
     height:100%;
     width:100%;
