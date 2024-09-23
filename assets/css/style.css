@@ -266,10 +266,26 @@ main p {
 
 /*styles for signup.html */
 
+
+
 #signup-main {
+    position:relative;
     background: url("../images/signup-background.webp") no-repeat center center/cover;
+    z-index:0
+
 }
 
+#signup-form-background {
+    display: table;
+    position:absolute;
+    background-color: rgba(255, 251, 244, 0.4);
+    z-index: 1;
+    height:100%;
+    width:100%;
+
+    
+    
+}
 
 #signup-form-body {
     margin: 12px 0;
