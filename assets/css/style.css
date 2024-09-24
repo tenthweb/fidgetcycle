@@ -465,7 +465,7 @@ footer {
     nav {
         position: static;
         flex: 1 1 auto;
-        display: block;
+        display: flex;
         
         margin: 2vh vw;
 
@@ -476,24 +476,28 @@ footer {
         display: none;
     }
 
-    nav ul {
+    #menu {
+        flex:1;
+        
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         padding: 1%;
-        margin:1vh;
     }
 
     nav li {
 
-        margin: 10px 1.5em;
         font-size: 2vh;
+        padding-bottom: 0;
         
 
 
 
 
     }
+
+
 
     main {
         margin-top: 16vh;
@@ -517,6 +521,8 @@ footer {
 
 @media screen and (min-width: 1366px) {
 
+
+
     #menu a:hover {
         color: #FF9100
     }
@@ -534,12 +540,10 @@ footer {
     }
 
 
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+    #menu{
+
         padding: 1%;
-        margin:3vh;
+
     }
 
 
