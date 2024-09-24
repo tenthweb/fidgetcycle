@@ -16,17 +16,17 @@
 
 body {
 
-    background-color:#001d0c;
-    
+    background-color: #001d0c;
+
     /*experiment bug fix */
-    
+
 
 
     /*experiment bug fix end */
 
 
     min-height: 100vh;
-    height:100%;
+    height: 100%;
     font-family: 'Rubik', sans-serif;
 
 }
@@ -34,27 +34,27 @@ body {
 
 h1 {
     font-family: 'Dosis', sans-serif;
-color:#00712D;
-background-color: #fffbf4;
-text-transform: uppercase;
-font-weight: 800;
-letter-spacing: 2px;
-padding: 2px;
-font-size: 3vh;
+    color: #00712D;
+    background-color: #fffbf4;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 2px;
+    font-size: 3vh;
 
 }
 
-h2{
-padding: 18px 0;
-font-family: 'Dosis', sans-serif;
-color: #00712D;
-text-transform: uppercase;
-letter-spacing: 2px;
+h2 {
+    padding: 18px 0;
+    font-family: 'Dosis', sans-serif;
+    color: #00712D;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 
 }
 
 button {
-    color:#fffbf4;
+    color: #fffbf4;
     font-size: 150%;
     background-color: #00712D;
     padding: 10px 20px 10px;
@@ -67,30 +67,30 @@ button {
 
 /* specific styles */
 .container {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    min-height:100vh;
+    min-height: 100vh;
 }
 
 header {
     background-color: #00712D;
-    
+
     position: fixed;
     z-index: 99;
     width: 100%;
     height: 12vh;
-    
+
 
 
 }
 
 .header-logo {
-    position:absolute;
+    position: absolute;
     color: #fffbf4;
-    height:8vh;
+    height: 8vh;
     top: 0;
-    bottom:0;
-    margin:auto;
+    bottom: 0;
+    margin: auto;
     left: 3vw;
 
 }
@@ -98,33 +98,35 @@ header {
 .header-title {
     /*height:125px;/
     object-fit: scale-down;*/
-    position:absolute;
+    position: absolute;
 
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
-    
+
     max-width: 52%;
     height: 8vh;
     padding: 2vh 2vw;
     text-align: center;
     border-radius: 4vh;
-    
-    }
+
+}
 
 h1 a {
-  
-    color:#00712D;
+
+    color: #00712D;
     background-color: #fffbf4;
-    
+
     text-decoration: none;
-   
+
 }
 
 nav {
+    font-family: 'Dosis', sans-serif;
     background-color: #00712D;
+    font-weight: 600;
     position: absolute;
     width: 100%;
     left: 0;
@@ -133,7 +135,7 @@ nav {
     top: 99%;
     text-align: center;
 
-    
+
 }
 
 nav ul {
@@ -142,14 +144,17 @@ nav ul {
 
 
 nav li {
-    padding-bottom: 1rem;    
+    padding-bottom: 1rem;
 }
 
 
 nav a {
+
     color: #fffbf4;
-    font-family: sans-serif;
-    font-size: 210%;
+    font-family: 'Dosis', sans-serif;
+
+    text-transform: uppercase;
+    font-size: 200%;
     text-decoration: none;
 
 }
@@ -169,25 +174,27 @@ https://stackoverflow.com/questions/8846075/css3-unchecked-pseudo-class */
 }
 
 i.fa-solid {
-    position:absolute;
+    position: absolute;
     color: #fffbf4;
-    font-size:6vh;
+    font-size: 6vh;
     top: 3vh;
     right: 7vw;
 }
 
-#nav-toggle:checked~.hamburger-nav-icon{
-    display:none;
+#nav-toggle:checked~.hamburger-nav-icon {
+    display: none;
 
 }
-#nav-toggle:not(:checked)~.x-nav-icon{
-    display:none;
+
+#nav-toggle:not(:checked)~.x-nav-icon {
+    display: none;
 
 
-/* main body styles */
+    /* main body styles */
 
 }
-main{
+
+main {
 
     /*experiment bug fix (footer issue
 
@@ -195,37 +202,41 @@ main{
 
     experiment bug fix (footer issue) end */
 
-    margin-top:11vh;
-    flex:1;
-    
+    margin-top: 11vh;
+    flex: 1;
 
-    display:flex;
+
+    display: flex;
     flex-direction: column;
+    
     text-align: center;
-    background-color:#fffbf4;
-    /*    padding:5%; */ 
+    background-color: #fffbf4;
+
 
 }
 
 
 main p {
-    color:#201300;
-    padding: 5%;
+
+    color: #001d0c;
+    padding: 10px 20px;
+    text-align: justify;
 
 }
 
 /*styles for index.html */
 
 #intro-text {
-    position:relative;
+    position: relative;
     background: url("../images/fidget-spinner-hand.jpeg") no-repeat center;
-    background-size:100%;
-  
+    background-size: 100%;
+    padding: 0 20px;
+
 }
 
 /* use the ::before pseudo-class to make a layer over the background image */
 
-#intro-text::before{
+#intro-text::before {
     position: absolute;
     content: '';
     top: 0;
@@ -233,31 +244,33 @@ main p {
     right: 0;
     bottom: 0;
     z-index: 1;
-    background-color:#fffbf44A;
-    background-size:100%;
+    background-color: #fffbf4BB;
+    background-size: 100%;
 
 }
 
-#intro-text-content{
+#intro-text-content {
     position: relative;
     z-index: 2;
 
 }
 
 #signup-button {
-    margin:50px
+    margin: 50px
 }
 
 
 /* styles for what-we-do.html */
 
 
-#collect-process, #products-box {
+#collect-process,
+#products-box {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
-#collect-process, #products-box  img {
+#collect-process,
+#products-box img {
     width: 100vw;
     max-width: 100%;
 
@@ -268,50 +281,48 @@ main p {
 
 
 #signup-main {
-   
-    display:flex;
+
+    display: flex;
     background: url("../images/signup-background.webp") no-repeat center center/cover;
-    z-index:0;
-   
+    z-index: 0;
+
 }
 
 #signup-form-background {
     flex: 1 1 auto;
     background-color: rgba(255, 251, 244, 0.5);
     z-index: 1;
-    height:100%;
-    padding-bottom:10vh;
-
-
-    
-    
+    height: 100%;
+    padding-bottom: 10vh;
 }
 
 #signup-form-body {
     margin: 12px 0;
-    
-}
-
-.signup-form-line{
-        display: flex;
-    justify-content:center;
 
 }
 
-#signup-form label, input{
-    flex:1 1;
+.signup-form-line {
+    display: flex;
+    justify-content: center;
+
+}
+
+#signup-form label,
+input {
+    flex: 1 1;
     margin: 10px 10px;
-  
+
 }
-#signup-form label{
+
+#signup-form label {
 
     text-align: right;
-    margin-left:30px;
+    margin-left: 30px;
 }
 
 #signup-form input {
-text-align: left;
-margin-right:30px;
+    text-align: left;
+    margin-right: 30px;
 
 }
 
@@ -326,144 +337,224 @@ footer {
     
     */
     overflow-y: auto;
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     background-color: #FF9100;
-    color:#001d0c;
+    color: #001d0c;
     padding: 5px 15px;
-    
+
 
 }
 
 #contact-details {
     float: left;
-    width:50%;
+    width: 50%;
 
 }
 
 #social-media {
 
-    float:right;
-    width:50%;
-    
-    
+    float: right;
+    width: 50%;
+
+
 }
 
 #social-media a {
-    color:#001d0c;
+    color: #001d0c;
     text-decoration: none;
 }
 
 /* media queries for larger phones or phones in landscape mode */
+/* prevent signup form from getting too big*/
+@media screen and (min-width: 600px) {
 
-@media screen and (min-width: 576px){
+    h1 {
+        font-size: 4vh;
+    }
 
+    #signup-main{
+        font-size:150%
+    }
 
-    #signup-form label, input{
-        flex:1 1;
+    #signup-text {
+        margin: 0 20%;
+        font-size:110%
+    }
+
+    #signup-form label,
+    input {
+        flex: 1 1;
         margin: 10px 10px;
-      
+        
+
     }
-    #signup-form label{
-    
+
+    #signup-form label {
+
         text-align: right;
-        margin-left:30%;
+        margin-left: 25%;
     }
-    
+
     #signup-form input {
-    text-align: left;
-    margin-right:30%;
-    
+        text-align: left;
+        margin-right: 25%;
+
     }
 
+    #signup-form-background {
 
-}
+        flex: 1 1 auto;
+        background-color: rgba(255, 251, 244, 0.8);
+        z-index: 1;
+        height: 100%;
+        padding-bottom: 10vh;
+        margin: 5% 10%;
+        border-radius: 3vh 3vh;
 
-/* media queries for desktops and laptops */
+    }
 
+    .submit-button {
+        margin:4vh 0;
+    }
 
-@media screen and (min-width: 1281px) {
+    main h2 {
+
+       flex: none;
+       margin: 20px; 
+    }
+
+    
+    #intro-text{
+        font-size:150%;
+        padding:5% 15%
+        
+   
+    }
+   }
+
+/* media queries for landscape tablet and small laptop screens*/
+
+@media screen and (min-width: 900px) {
 
     h1 {
         font-size: 5vh;
-        padding:1vh;
+        padding: 1vh;
     }
 
     header {
 
-        height: 16vh;    
-        display:flex;
-        flex-direction:row;
+        height: 16vh;
+        display: flex;
+        flex-direction: row;
     }
 
-    .header-logo{
-        position:static;
+    .header-logo {
+        position: static;
         margin: 4vh 4vh;
-        }
+    }
 
     .header-title {
-        position:static;
-        flex:1;
-        max-width:40vw;
-        padding: 1vh 2vw;
+        position: static;
+        flex: 2 2;
+        min-width: 25vw;
+        max-width: 50vw;
+        padding: .8vh 2vw;
     }
-
-    #menu a:hover{
-     color:#FF9100
-    }
-
 
     nav {
-        position:static;
-        flex:1;
-        display:block;
-        text-align:unset;
-        margin: 2vh 3vw;
+        position: static;
+        flex: 1 1 auto;
+        display: block;
         
+        margin: 2vh vw;
+
 
     }
-    
-    i.fa-solid{
-        display:none;
+
+    i.fa-solid {
+        display: none;
     }
-    
+
     nav ul {
-        display:flex;
+        display: flex;
         flex-direction: row;
-        justify-content:space-around;
-        padding:1%;
-            }
+        justify-content: space-around;
+        padding: 1%;
+        margin:1vh;
+    }
 
     nav li {
-        
-        margin: 10px 10px;
+
+        margin: 10px 1.5em;
         font-size: 2vh;
+        
+
+
+
+
     }
 
-    main{
-            margin-top:16vh;
-            flex:1;
-        }
+    main {
+        margin-top: 16vh;
+        flex: 1;
+    }
 
 
+
+    
 
 
 }
 
-/* media queries for large screens */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1024px) {
 
-    
-    
+}
+
+/* media queries for laptops and desktops*/
+
+
+@media screen and (min-width: 1366px) {
+
+    #menu a:hover {
+        color: #FF9100
+    }
+
+
+
     .container {
-      
-        
-        margin: 0 10%
+
+
+        margin: 0 15%
     }
 
     header {
-        width:80%;
+        width: 70%;
     }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1%;
+        margin:3vh;
+    }
+
+
+    #signup-form-background {
+
+        flex: 1 1 auto;
+        background-color: rgba(255, 251, 244, 0.8);
+        z-index: 1;
+        height: 100%;
+        padding-bottom: 10vh;
+        margin: 5% 15%;
+        border-radius: 3vh 3vh;
+
+
+    }
+
 
 }
