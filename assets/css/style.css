@@ -268,15 +268,15 @@ main p {
 
 
 #signup-main {
+   
+    display:flex;
     background: url("../images/signup-background.webp") no-repeat center center/cover;
     z-index:0;
-    
-
+   
 }
 
 #signup-form-background {
-    
-
+    flex: 1 1 auto;
     background-color: rgba(255, 251, 244, 0.5);
     z-index: 1;
     height:100%;
@@ -289,24 +289,28 @@ main p {
 
 #signup-form-body {
     margin: 12px 0;
+    
 }
 
-#signup-form label{
-    float:left;
-    width:35%;
-    text-align: right;
-}
+.signup-form-line{
+        display: flex;
+    justify-content:center;
 
+}
 
 #signup-form label, input{
+    flex:1 1;
+    margin: 10px 10px;
+  
+}
+#signup-form label{
 
-    margin: 10px 0;
+    text-align: right;
+    
 }
 
-
-#signupform input {
-float:right;
-width:55%;
+#signup-form input {
+text-align: left;
 }
 
 
