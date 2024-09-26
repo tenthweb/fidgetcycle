@@ -263,40 +263,42 @@ main p {
 /* styles for what-we-do.html */
 
 
-.products-frame{
-    position:relative;
+.products-frame {
+    position: relative;
 }
 
 #collect-process,
 #products-box {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
 #collect-process,
 #products-box img {
-    
+
     width: 100vw;
     max-width: 100%;
-    
+
 }
+
 #products-box img {
-display:block;}
+    display: block;
+}
 
 
-.products-frame > div {
-    position:absolute;
+.products-frame>div {
+    position: absolute;
     top: 10px;
     left: 20px;
-    height:1.3em;
+    height: 1.3em;
     padding: 0 20px;
     background-color: #fffbf4AA;
     border-radius: .65em;
 
     font-size: 150%;
-    font-weight:500;
+    font-weight: 500;
     font-family: 'Dosis', sans-serif;
     color: #00712D;
     text-transform: uppercase;
@@ -307,29 +309,28 @@ display:block;}
 .what-we-do-text {
     text-align: justify;
     padding: 0 30px 15px;
-    color:#001d0c;
+    color: #001d0c;
 }
 
 #products-text {
-    padding-top:15px;
+    padding-top: 15px;
     border-bottom: 1px solid #00712D
-
 }
 
 #drawers-frame div {
-    left:unset;
-    right:30px;
+    left: unset;
+    right: 30px;
 }
 
 #fishing-frame div {
-    left:unset;
-    right:30px;
+    left: unset;
+    right: 30px;
 }
 
-#robot-frame div{
-    right:20px;
+#robot-frame div {
+    right: 20px;
     text-align: center;
-    height:2.6em;
+    height: 2.6em;
 }
 
 
@@ -430,20 +431,20 @@ footer {
         font-size: 4vh;
     }
 
-    #signup-main{
-        font-size:150%
+    #signup-main {
+        font-size: 150%
     }
 
     #signup-text {
         margin: 0 20%;
-        font-size:110%
+        font-size: 110%
     }
 
     #signup-form label,
     input {
         flex: 1 1;
         margin: 10px 10px;
-        
+
 
     }
 
@@ -472,23 +473,21 @@ footer {
     }
 
     .submit-button {
-        margin:4vh 0;
+        margin: 4vh 0;
     }
 
     main h2 {
 
-       flex: none;
-       padding: 18px 0 16px
+        flex: none;
+        padding: 18px 0 16px
     }
 
-    
-    #intro-text{
-        font-size:150%;
-        padding:5% 15%
-        
-   
+
+    #intro-text {
+        font-size: 150%;
+        padding: 5% 15%
     }
-   }
+}
 
 /* media queries for landscape tablet and small laptop screens*/
 
@@ -523,7 +522,7 @@ footer {
         position: static;
         flex: 1 1 auto;
         display: flex;
-        
+
         margin: 2vh vw;
 
 
@@ -534,8 +533,8 @@ footer {
     }
 
     #menu {
-        flex:1;
-        
+        flex: 1;
+
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -547,7 +546,7 @@ footer {
 
         font-size: 2vh;
         padding-bottom: 0;
-        
+
 
 
 
@@ -561,19 +560,41 @@ footer {
         flex: 1;
     }
 
-    .what-we-do-section {
-        
+
+    #products-box {
+        display: block;
+        column-gap: 0;
+        row-gap: 0;
+        column-count: 2;
     }
 
-    
+    .products-frame {
+        width: 100%;
 
+
+    }
+
+    #fishing-frame img{
+        display: block;
+        right:0;
+        max-width:100%;
+        width:auto;
+        height:100%;
+        z-index:99;
+        }
+
+
+
+    #robot-frame img{
+        display: block;
+        width:100%;
+        margin:-5px 0 0;
+    }
 
 }
 
 
-@media screen and (min-width: 1024px) {
-
-}
+@media screen and (min-width: 1024px) {}
 
 /* media queries for laptops and desktops*/
 
@@ -599,7 +620,7 @@ footer {
     }
 
 
-    #menu{
+    #menu {
 
         padding: 1%;
 
