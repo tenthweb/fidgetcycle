@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-    padding: 18px 0 4px;
+    padding: 18px 0 8px;
     font-family: 'Dosis', sans-serif;
     color: #00712D;
     text-transform: uppercase;
@@ -262,10 +262,6 @@ main p {
 
 /* styles for what-we-do.html */
 
-.what-we-do-section{
-    padding: 20px 20px;
-
-}
 
 .products-frame{
     position:relative;
@@ -294,10 +290,10 @@ display:block;}
     position:absolute;
     top: 10px;
     left: 20px;
-    height:1.2em;
+    height:1.3em;
     padding: 0 20px;
     background-color: #fffbf4AA;
-    border-radius: .6em;
+    border-radius: .65em;
 
     font-size: 150%;
     font-weight:500;
@@ -308,8 +304,33 @@ display:block;}
 
 }
 
+.what-we-do-text {
+    text-align: justify;
+    padding: 0 30px 15px;
+    color:#001d0c;
+}
 
+#products-text {
+    padding-top:15px;
+    border-bottom: 1px solid #00712D
 
+}
+
+#drawers-frame div {
+    left:unset;
+    right:30px;
+}
+
+#fishing-frame div {
+    left:unset;
+    right:30px;
+}
+
+#robot-frame div{
+    right:20px;
+    text-align: center;
+    height:2.6em;
+}
 
 
 /*styles for signup.html */
@@ -457,7 +478,7 @@ footer {
     main h2 {
 
        flex: none;
-       padding: 18px 0 12px
+       padding: 18px 0 16px
     }
 
     
@@ -540,7 +561,9 @@ footer {
         flex: 1;
     }
 
-
+    .what-we-do-section {
+        
+    }
 
     
 
