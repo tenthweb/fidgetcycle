@@ -263,10 +263,13 @@ main p {
 /* styles for what-we-do.html */
 
 
+
+
 #collect-process,
 #products-box {
     display: flex;
     flex-direction: column;
+    
 }
 
 #collect-process,
@@ -275,6 +278,25 @@ main p {
     max-width: 100%;
 
 }
+
+.products-frame{
+    position:relative;
+}
+.products-frame > div {
+    position:absolute;
+    top: 10px;
+    left: 20px;
+    height:1.4em;
+    padding: 0 20px;
+    background-color: #fffbf4AA;
+    border-radius: .7em;
+
+    font-size: 200%
+}
+
+
+
+
 
 /*styles for signup.html */
 
