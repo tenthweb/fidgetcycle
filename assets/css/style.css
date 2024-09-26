@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-    padding: 18px 0;
+    padding: 18px 0 4px;
     font-family: 'Dosis', sans-serif;
     color: #00712D;
     text-transform: uppercase;
@@ -208,7 +208,7 @@ main {
 
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
     text-align: center;
     background-color: #fffbf4;
 
@@ -262,8 +262,14 @@ main p {
 
 /* styles for what-we-do.html */
 
+.what-we-do-section{
+    padding: 20px 20px;
 
+}
 
+.products-frame{
+    position:relative;
+}
 
 #collect-process,
 #products-box {
@@ -272,26 +278,34 @@ main p {
     
 }
 
+
 #collect-process,
 #products-box img {
+    
     width: 100vw;
     max-width: 100%;
-
+    
 }
+#products-box img {
+display:block;}
 
-.products-frame{
-    position:relative;
-}
+
 .products-frame > div {
     position:absolute;
     top: 10px;
     left: 20px;
-    height:1.4em;
+    height:1.2em;
     padding: 0 20px;
     background-color: #fffbf4AA;
-    border-radius: .7em;
+    border-radius: .6em;
 
-    font-size: 200%
+    font-size: 150%;
+    font-weight:500;
+    font-family: 'Dosis', sans-serif;
+    color: #00712D;
+    text-transform: uppercase;
+
+
 }
 
 
@@ -443,7 +457,7 @@ footer {
     main h2 {
 
        flex: none;
-       margin: 20px; 
+       padding: 18px 0 12px
     }
 
     
