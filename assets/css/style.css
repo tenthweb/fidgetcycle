@@ -268,7 +268,8 @@ main p {
 }
 
 #collect-process,
-#products-box {
+#products-box,
+#robot-box {
     display: flex;
     flex-direction: column;
 
@@ -276,14 +277,16 @@ main p {
 
 
 #collect-process,
-#products-box img {
+#products-box img,
+#robot-box img {
 
     width: 100vw;
     max-width: 100%;
 
 }
 
-#products-box img {
+#products-box img,
+#robot-box img {
     display: block;
 }
 
