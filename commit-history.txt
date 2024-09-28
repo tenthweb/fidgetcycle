@@ -1,0 +1,283 @@
+commit 17b04c2c043de141fc737239d55c248c65322bcd
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Fri Sep 27 15:14:45 2024 +0000
+
+    fix bug with robot arm image expanding too much on mobile
+
+commit 7731066e8a3bdb190e6c5bc0facf14ace62e336a
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 26 23:36:21 2024 +0000
+
+    add styles for what-we-do page for larger devices
+
+commit 7dec1a9cc74d2e41ff9f03ae9823053ea9ad96f3
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 26 22:38:59 2024 +0000
+
+    add styles for what-we-do page
+
+commit aa8697adc3406889540f1dad3fa5acfb5fc465e6
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 26 20:54:00 2024 +0000
+
+    fix bug: slow loading time on signup background image
+
+commit ca1e5fbd77c6c7773d89726c2aade065232f307a
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 26 20:48:09 2024 +0000
+
+    improve layout of h2 and changed styles for what-we-do
+
+commit 75785c5e2222070fad54676feba854ecab82af06
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 26 20:09:36 2024 +0000
+
+    add new images and styles to what-we-do page
+
+commit 3824d4ee4d7019dadd6cc6de9cf2bba194219291
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 19:47:17 2024 +0000
+
+    make menu items line up vertically on larger screens
+
+commit ce9de15b7af080977172d4dd55fc8df959bbe3ad
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 19:25:00 2024 +0000
+
+    make header and signup page work on different devices
+
+commit 7cbfc26ba549f3cc87c7683fbb2338efd221dd46
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 14:07:42 2024 +0000
+
+    fix widths of signup page
+
+commit 8bcdf3217af83f50a0fd9bf61fbebebcc71426ce
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 13:17:50 2024 +0000
+
+    fix bug with formatting of signup form on mobile. change float styles to flexbox styles
+
+commit 3b4855155f196f97e2e3df9acc2eb74f719b63b0
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 11:43:24 2024 +0000
+
+    fix alignment of header heading
+
+commit 2e4eb867d2d45bbc1403b4a887efe1cfcb42ee1c
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 09:59:26 2024 +0000
+
+    remove logo element, which was not valid
+
+commit 78609988b45d355745e6245d1bb71b2c09407752
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 24 08:57:01 2024 +0000
+
+    fixed signup background image/transparancy on horizontal phones
+
+commit 9cda2ccd1e4d7ca05ae063eb58e38d767d62b5f1
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Sep 23 17:01:01 2024 +0000
+
+    raise transparency of transparent box on signup page for better contrast with text
+
+commit 7263b55419ef2aebecfc1703acee915a7b11b77e
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Sep 23 16:58:36 2024 +0000
+
+    create transparent box on signup page for better contrast with text
+
+commit 0bf2765c956e2e673498183b49776f9ba73a613a
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Sep 23 16:25:39 2024 +0000
+
+    align header menu for larger screens
+
+commit bb864d5010258f16c82e596bb94aac9ee211ca17
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sun Sep 22 20:25:47 2024 +0000
+
+    fix bug: main and footer not extending to bottom of screen on signup.html
+
+commit 02a35fb6cf1bf6115664176232640ee78f264bee
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sun Sep 22 20:00:10 2024 +0000
+
+    add margin styles for widescreens
+
+commit 8585154d9fc1fbd8d46848cd389857df49180214
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 12 16:04:33 2024 +0000
+
+    make header and footer styles uniform across pages. Add new image to what-we-do page
+
+commit 556175554990ab55f2b9ada046f191182175f11e
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 12 15:12:56 2024 +0000
+
+    add styles to signup form
+
+commit 4d8d328b09b6d6953566ea38213594a8bcf80b80
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 10 16:26:51 2024 +0000
+
+    add image and transparent overlay to index.html
+
+commit 2150e4fcad5fe38a46bd41f130c0bf3872e18c46
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Sep 10 15:51:54 2024 +0000
+
+    change header layout for index.html
+
+commit 38881a97eb90209b107c4085c5503335b5330645
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Sep 9 19:47:24 2024 +0000
+
+    add icons and links to social media on footer of index.html. Added styles for social media.
+
+commit 8a8d32c8d07a924242b407757de1e1fb609e991c
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Sep 9 19:25:59 2024 +0000
+
+    Add button styles. Add padding to footer. Minor change to main and footer height logic
+
+commit edb1ed61d78b25800054435ca3cc6a5f34cc5202
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Fri Sep 6 21:26:28 2024 +0000
+
+    Add font styles for body text. Add styles for index.html signup button.
+    git push
+
+commit fd40a641e6209aab4690a2460022b46c445d2c28
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 5 18:54:55 2024 +0000
+
+    fix footer bug on mobile
+
+commit dec433933af174432b025d2127b648fb0ad8dbb4
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 5 18:35:23 2024 +0000
+
+    add styles to text in main and footer
+
+commit 95e6e12467b25355063a12fdc6c146689b014777
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 5 16:25:03 2024 +0000
+
+    set image width to 100% for what-we-do.html for mobile
+
+commit 007fdd68e427b5b036f5f6cad568b00d0759dca6
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Sep 5 16:18:07 2024 +0000
+
+    style images on what-we-do.html for mobile
+
+commit bb1bfbeadd041dde6edb6f7cc22cc0b03dcdda2a
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Wed Sep 4 10:30:06 2024 +0000
+
+    add image and text content to what-we-do.html. add new background image for signup.html
+
+commit b05dd80f398e90c10ac819331270b1c8423db203
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Sep 2 10:44:32 2024 +0000
+
+    add form to signup page
+
+commit 56c2717c7993d1a1b630b9e519191c58ca6e15ec
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sun Sep 1 18:21:03 2024 +0000
+
+    make logo image into a link to homepage
+
+commit 7264644dc7e3a95fa39dd18cde62def5c2c3f7a5
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sun Aug 25 22:01:59 2024 +0000
+
+    add signup.html and what-we-do.html. Fix links to what-we-do.html
+
+commit 2e7ba147e581ad95498c0a99407a68a9954297a7
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sun Aug 25 21:02:58 2024 +0000
+
+    fix footer colour not being inherited (changed from absolute positioning and used float instead.
+
+commit c4d2348cac437b93fe8e89a82a7275e2328db3f9
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Tue Aug 20 15:03:08 2024 +0000
+
+    center header and menu items.
+
+commit 2c2f22d7e36293e5f9062f6a9a5ebe4d52bea71d
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Aug 19 16:45:16 2024 +0000
+
+    fix positions of elements in header.Resize header for mobile. Add favicon.
+    fix top of main element to align with header
+
+commit aa354d4c5d4f16b197f36961563b99d639e5a319
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sat Aug 17 11:57:48 2024 +0000
+
+    fix logo image changing size when nav icon clicked
+
+commit 9b0932bda66515e690a897e9bb4487749065dd3a
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sat Aug 17 11:11:39 2024 +0000
+
+    fix header logo size issue with max-widths and font-size
+
+commit 9fe313630b0065fc4963758c4a2b443762f1df42
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Aug 15 12:49:22 2024 +0000
+
+    header: change background color and logo image. Reposition hamburger icon.
+
+commit 34d13d7efa6881c464c64f659c9efef487c4340b
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Mon Aug 12 12:38:18 2024 +0000
+
+    add hamburger/close icons to dropdown nav menu
+
+commit 02029d951d3817ac0db7690399c6c58389fbf403
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Fri Aug 9 17:42:43 2024 +0000
+
+    corrected link to css styles
+
+commit 374fec431f6e9bc3ffb61a823e73eb1929444990
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Fri Aug 9 17:27:54 2024 +0000
+
+    Add additional text to main part of index.html
+
+commit eef257f1725f20bb25bb5ef6eb7c6fa48928a0ac
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Fri Aug 9 14:19:31 2024 +0000
+
+    add navigation bar links. Set header background color.
+
+commit 54305e14f7a31b5b75640dee828cdc9a3cd66f44
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Fri Aug 9 14:10:10 2024 +0000
+
+    added text
+
+commit 3d80a2f39eb0c9b7781eb580b4a7be2cba29806f
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Thu Aug 8 19:12:31 2024 +0000
+
+    Create css file. Add logo text and background colour for header. Add header, main, footer to index.html and css file.
+
+commit acb5707b5e4c35288ae6ce68e27f0b96841b9fc3
+Author: Matthew Byrne <tenthweb@gmail.com>
+Date:   Sun Aug 4 19:19:02 2024 +0000
+
+    created index.html
+
+commit 11b34813997cfa1c31252c0e6ab731512c381200
+Author: tenthweb <47951574+tenthweb@users.noreply.github.com>
+Date:   Sun Aug 4 20:03:05 2024 +0100
+
+    Initial commit

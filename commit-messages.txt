@@ -1,0 +1,47 @@
+fix bug with robot arm image expanding too much on mobile
+add styles for what-we-do page for larger devices
+add styles for what-we-do page
+fix bug: slow loading time on signup background image
+improve layout of h2 and changed styles for what-we-do
+add new images and styles to what-we-do page
+make menu items line up vertically on larger screens
+make header and signup page work on different devices
+fix widths of signup page
+fix bug with formatting of signup form on mobile. change float styles to flexbox styles
+fix alignment of header heading
+remove logo element, which was not valid
+fixed signup background image/transparancy on horizontal phones
+raise transparency of transparent box on signup page for better contrast with text
+create transparent box on signup page for better contrast with text
+align header menu for larger screens
+fix bug: main and footer not extending to bottom of screen on signup.html
+add margin styles for widescreens
+make header and footer styles uniform across pages. Add new image to what-we-do page
+add styles to signup form
+add image and transparent overlay to index.html
+change header layout for index.html
+add icons and links to social media on footer of index.html. Added styles for social media.
+Add button styles. Add padding to footer. Minor change to main and footer height logic
+Add font styles for body text. Add styles for index.html signup button. git push
+fix footer bug on mobile
+add styles to text in main and footer
+set image width to 100% for what-we-do.html for mobile
+style images on what-we-do.html for mobile
+add image and text content to what-we-do.html. add new background image for signup.html
+add form to signup page
+make logo image into a link to homepage
+add signup.html and what-we-do.html. Fix links to what-we-do.html
+fix footer colour not being inherited (changed from absolute positioning and used float instead.
+center header and menu items.
+fix positions of elements in header.Resize header for mobile. Add favicon. fix top of main element to align with header
+fix logo image changing size when nav icon clicked
+fix header logo size issue with max-widths and font-size
+header: change background color and logo image. Reposition hamburger icon.
+add hamburger/close icons to dropdown nav menu
+corrected link to css styles
+Add additional text to main part of index.html
+add navigation bar links. Set header background color.
+added text
+Create css file. Add logo text and background colour for header. Add header, main, footer to index.html and css file.
+created index.html
+Initial commit

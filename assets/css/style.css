@@ -592,6 +592,13 @@ footer {
         display: block;
         width:100%;
         margin:-5px 0 0;
+
+        
+    }
+
+    .products-frame>div {
+    font-size: 300% ;
+    
     }
 
 }
@@ -599,7 +606,7 @@ footer {
 
 @media screen and (min-width: 1024px) {}
 
-/* media queries for laptops and desktops*/
+/* media queries for larger laptops and desktops*/
 
 
 @media screen and (min-width: 1366px) {
