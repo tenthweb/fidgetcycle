@@ -199,7 +199,7 @@ main p {
 
 #intro-text {
     position: relative;
-    background: url("../images/fidget-spinner-hand.jpeg") no-repeat center ;
+    background: url("../images/fidget-spinner-hand.webp") no-repeat center ;
     background-size: cover;
     
     padding: 0 20px;
