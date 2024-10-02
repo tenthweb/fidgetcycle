@@ -197,29 +197,6 @@ main p {
 
 /*styles for index.html */
 
-#intro-text {
-    position: relative;
-    background: url("../images/fidget-spinner-hand.webp") no-repeat center ;
-    background-size: cover;
-    
-    padding: 0 20px;
-
-}
-
-/* use the ::before pseudo-class to make a layer over the background image */
-
-#intro-text::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background-color: #fffbf4BB;
-    background-size: 100%;
-
-}
 
 #intro-text-content {
     position: relative;
@@ -228,12 +205,22 @@ main p {
 
 }
 
+#intro-text img {
+
+    width:100%;
+    height:auto;
+}
+
+
 #signup-button {
     margin: 50px;
 }
 
 
 /* styles for what-we-do.html */
+
+
+
 
 .what-we-do-content img{
     width:100%;

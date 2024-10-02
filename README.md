@@ -6,30 +6,72 @@ Users will be able to find information about the purpose of the business and the
 
 ![Home page on different devices](/image/sample.webp "This is a sample image.")
 
-
 ## Features
 
-### Navigation on Mobile
+### Header 
+
 
 * The top of the page is a header with the company logo and branding.
-* a "hamburger" icon shows navigation links in a drop down menu when clicked.
-* Ther navigation links go to the relevant pages of the site.
-* The navigation is in the font chosen for the branding, and contrasts with the background.
-* The navigation links are right at the top of the page in a fixed header, making it easy to access the site's pages from any part of the site. 
-
-### Navigation on Larger Screens
-
-* On larger screens, the extra space made it more appropriate to use links in the header itself rather than a drop down menu. Again, this keeps the links to the site's pages very easy to access.
+* Navigation links to the site's pages are right at the top of the page in a fixed header, making it easy to access them at any time while using the site.
+* The navigation links are in the same font and colours chosen for the branding, and contrast with the background.
 
 
-## Footer
+#### Navigation on Mobile
+
+* A "hamburger" icon shows the navigation links in a drop down menu when clicked.
+
+#### Navigation on Larger Screens
+
+* On larger screens, the extra space makes it more appropriate to use links in the header itself rather than a drop down menu. Again, this keeps the links to the site's pages very easy to access.
+
+### Footer
 
 * The footer contains contact information and links to social media pages. This allows the user to get this information from any page.
 * Because this information is lower in priority than the header links, the footer isn't fixed, but is at the bottom of each page.
 
-## Home page
+### Home page
 
 * The home page has a concise description of the business, and a call to action in the form of a "Sign up now" button.
+
+![](assets/images/homepage-screenshot.png)
+
+### "What We Do" page
+
+* The "What We Do" Page explains how the business works, and the different ways the recycled products can be used. This page can overcome barriers to signing up by answering questions a user might have about what the business is.
+
+![](assets/images/what-we-do-screenshot-1.png)
+![](assets/images/what-we-do-screenshot-2.png)
+
+
+### Signup Page
+
 * 
 
 
+## Testing
+
+### Bugs
+
+### Validator Testing
+
+All pages passed validation on
+
+At first, the 
+
+![](assets/images/what-we-do-mobile-before.png)
+
+### Unfixed Bugs
+
+## Deployment
+
+
+
+## Credits
+
+### Content
+
+Code for the responsive header was adapted from the CI Love Running Project and 
+
+### Media
+
+* All images were taken from Pexels and were free-to-sue.
