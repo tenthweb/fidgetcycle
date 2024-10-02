@@ -32,12 +32,12 @@ h1 {
 }
 
 h2 {
-    padding: 18px 0 8px;
+    padding: 18px 15% 8px;
     font-family: 'Dosis', sans-serif;
     color: #00712D;
     text-transform: uppercase;
     letter-spacing: 2px;
-
+    
 }
 
 button {
@@ -197,11 +197,15 @@ main p {
 
 /*styles for index.html */
 
+#intro-text {
+    padding: 1%  15% 3%;
+}
 
 #intro-text-content {
     position: relative;
     z-index: 2;
     line-height:1.4;
+    padding: 0 0 2%;
 
 }
 
@@ -209,6 +213,9 @@ main p {
 
     width:100%;
     height:auto;
+}
+#intro-text p {
+    padding: 0 0 3%;
 }
 
 
@@ -278,8 +285,9 @@ main p {
 
 .what-we-do-text {
     text-align: justify;
-    padding: 0 30px 15px;
+    padding: 1%  15% 3%;
     color: #001d0c;
+    
 }
 
 #products-text {
@@ -325,6 +333,10 @@ main p {
 #signup-form-body {
     margin: 12px 0;
 
+}
+
+#signup-text {
+    padding: 5px 10% 5px; 
 }
 
 .signup-form-line {
@@ -387,6 +399,12 @@ footer {
 /* prevent signup form from getting too big*/
 @media screen and (min-width: 600px) {
 
+    #intro-text {
+        font-size: 130%;
+        
+    }
+
+
     h1 {
         font-size: 4vh;
     }
@@ -396,7 +414,7 @@ footer {
     }
 
     #signup-text {
-        margin: 0 20%;
+        padding: 20px 20% 10px;
         font-size: 110%
     }
 
@@ -439,15 +457,11 @@ footer {
     main h2 {
 
         flex: none;
-        padding: 18px 0 16px
+        padding: 18px 0 0;
     }
 
-
-    #intro-text {
-        font-size: 150%;
-        padding: 5% 15%
-    }
 }
+
 
 /* media queries for landscape tablet and small laptop screens*/
 
@@ -519,10 +533,13 @@ footer {
     }
 
     .what-we-do-text {
-        font-size:140%;
+        font-size:130%;
         text-align: justify;
-        padding: 0 30px 15px;
+        line-height: 1.4
+        padding: 1%  15% 3%;
     }
+    
+
 
 
     #products-box {
