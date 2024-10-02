@@ -285,13 +285,12 @@ main p {
 
 .what-we-do-text {
     text-align: justify;
-    padding: 1%  15% 3%;
+    padding: 1%  15% 5%;
     color: #001d0c;
     
 }
 
 #products-text {
-    padding-top: 15px;
     border-bottom: 1px solid #00712D
 }
 
@@ -535,7 +534,7 @@ footer {
     .what-we-do-text {
         font-size:130%;
         text-align: justify;
-        line-height: 1.4
+        line-height: 1.4;
         padding: 1%  15% 3%;
     }
     
