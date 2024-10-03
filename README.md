@@ -4,7 +4,7 @@ The FidgetSpinner website is intended for owners of fidget spinners who don't wa
 
 Users will be able to find information about the purpose of the business and the value provided by donating.
 
-![Home page on different devices](/image/sample.webp "This is a sample image.")
+![Home page on different devices](images/homepage-on-different-devices.png)
 
 ## Features
 
@@ -20,6 +20,9 @@ Users will be able to find information about the purpose of the business and the
 
 * A "hamburger" icon shows the navigation links in a drop down menu when clicked.
 
+![](images/screenshot-dropdown.png)
+
+
 #### Navigation on Larger Screens
 
 * On larger screens, the extra space makes it more appropriate to use links in the header itself rather than a drop down menu. Again, this keeps the links to the site's pages very easy to access.
@@ -31,26 +34,34 @@ Users will be able to find information about the purpose of the business and the
 
 ### Home page
 
-* The home page has a concise description of the business, and a call to action in the form of a "Sign up now" button.
+* The home page has a concise description of the business, and a call to action in the form of a "Sign up here!" button. The description benefits the user by explaining the business without overloading, and the button has the benefit of allowing them to click to the signup page in an intuitive progression.
 
-![](assets/images/homepage-screenshot.png)
+![](images/homepage-screenshot.png)
 
 ### "What We Do" page
 
 * The "What We Do" Page explains how the business works, and the different ways the recycled products can be used. This page can overcome barriers to signing up by answering questions a user might have about what the business is.
 
-![](assets/images/what-we-do-screenshot-1.png)
-![](assets/images/what-we-do-screenshot-2.png)
+![](images/what-we-do-screenshot-1.png)
+![](images/what-we-do-screenshot-2.png)
 
 
 ### Signup Page
 
-* 
+* The signup page is a simple form with fields for first name, last name, and email address. In this version of the site, the completed for goes to the CI form dump.
 
+
+![](images/signup-screenshot.png)
 
 ## Testing
+ * I tested that the pages work in different browers: Chrome, Firefox, Safari, and Edge.
+ * I checked that that the page is responsive and functions as expected on all screen sizes using the the Firefox "inspect element" tools, and tested on Samsung and iPhone hardware.
+ * I confirmed that all content was readble, understandable, and placed as intended in the pages' flow.
+* I confirmed that the form works as intended ands requires the correct input types.
 
 ### Bugs
+
+
 
 ### Validator Testing
 
@@ -58,7 +69,7 @@ All pages passed validation on
 
 At first, the 
 
-![](assets/images/what-we-do-mobile-before.png)
+![](images/what-we-do-mobile-before.png)
 
 ### Unfixed Bugs
 
