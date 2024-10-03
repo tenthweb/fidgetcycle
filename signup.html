@@ -13,135 +13,135 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 
-        <!-- Preload the font files -->
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" as="style">
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- Preload the font files -->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        as="style">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 
     <!--favicon generated at https://favicon.io/favicon-converter/-->
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icons//favicon-16x16.png">
-    
+
     <link rel="manifest" href="assets/icons/site.webmanifest">
 
 </head>
 
 
 <body>
-    <div class = "container">
-    <header>
+    <div class="container">
+        <header>
 
-        <!--TODO: Improve this flexbox setup-->
-  
-        <!-- logo -->
-    
-        <a href="index.html">
-        <img class="header-logo" src="assets/images/biglogo.webp" alt="Fidgetcycle logo">
-        </a>
-               
-        <!--Site title-->
-        
-        
-        <h1 class="header-title">
-            <a href="index.html"> Fidgetcycle</a>
-        </h1>
-        
+            <!--TODO: Improve this flexbox setup-->
 
-        <!-- Navigation bar -->
+            <!-- logo -->
 
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <a href="index.html" aria-label="Return to homepage">
+                <img class="header-logo" src="assets/images/biglogo.webp" alt="Fidgetcycle logo">
+            </a>
 
-        <label for="nav-toggle" class="nav-icon hamburger-nav-icon"><i class="fa-solid fa-bars"></i></label>
-        <label for="nav-toggle" class="nav-icon x-nav-icon"><i class="fa-solid fa-xmark"></i></label>
+            <!--Site title-->
 
-        <nav>
-            <ul id='menu'>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="what-we-do.html">What we do</a>
-                </li>
-                <li>
-                    <a href="signup.html">Sign Up</a>
-                </li>
-            </ul>
-        </nav>
 
-    </header>
+            <h1 class="header-title">
+                <a href="index.html" aria-label="Return to homepage"> Fidgetcycle</a>
+            </h1>
 
-    <main id="signup-main">
 
-        <div id="signup-form-background">
-        <h2>
-            Sign up to our mailing list
-        </h2>
+            <!-- Navigation bar -->
 
-        <div id="signup-text">
-            Sign up to get alerts when our collection team is visiting your area!
-        </div>
-        <div>
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <div id="signup-form-body">
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
 
-                    <div id="first-name-line" class="signup-form-line">
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first_name" id="first-name" required>
-                    </div>
+            <label for="nav-toggle" class="nav-icon hamburger-nav-icon"><i class="fa-solid fa-bars"></i></label>
+            <label for="nav-toggle" class="nav-icon x-nav-icon"><i class="fa-solid fa-xmark"></i></label>
 
-                    <div id="last-name-line" class="signup-form-line">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last_name" id="last-name" required>
-                    </div>
+            <nav>
+                <ul id='menu'>
+                    <li>
+                        <a href="index.html" class="active" aria-label="Return to homepage">Home</a>
+                    </li>
+                    <li>
+                        <a href="what-we-do.html" aria-label="Go to the What We Do page.">What we do</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" aria-label="Go to the Signup page.">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
 
-                    <div id="email-address-line" class="signup-form-line">
-                        <label for="email-address">Email Address</label>
-                        <input type="email" name="email_address" id="email-address" required>
-                    </div>
+        </header>
+
+        <main id="signup-main">
+
+            <div id="signup-form-background">
+                <h2>
+                    Sign up to our mailing list
+                </h2>
+
+                <div id="signup-text">
+                    Sign up to get alerts when our collection team is visiting your area!
                 </div>
-
                 <div>
-                    <button type="submit" class="submit-button">Sign up!</button>
+                    <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                        <div id="signup-form-body">
+
+                            <div id="first-name-line" class="signup-form-line">
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first_name" id="first-name" required>
+                            </div>
+
+                            <div id="last-name-line" class="signup-form-line">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last_name" id="last-name" required>
+                            </div>
+
+                            <div id="email-address-line" class="signup-form-line">
+                                <label for="email-address">Email Address</label>
+                                <input type="email" name="email_address" id="email-address" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="submit-button">Sign up!</button>
+                        </div>
+
+
+                    </form>
                 </div>
-           
+            </div>
 
-            </form>
-        </div>
-    </div>
+        </main>
 
-
-
-
-
-    </main>
-    
-    <footer>
-        <div id="contact-details">
-            <h3>Find Us</h3>
-            100 Tolka Quay Road
-            <br>
-            Dublin Port
-            <br>
-            Dublin 1
-            <br>
-            Ireland
-        </div>
-        <div id="social-media">
-            <h3>Social Media</h3>
-            <a href="https://facebook.com" target="_blank" rel="noopener"
+        <footer>
+            <div id="contact-details">
+                <h3>Find Us</h3>
+                100 Tolka Quay Road
+                <br>
+                Dublin Port
+                <br>
+                Dublin 1
+                <br>
+                Ireland
+            </div>
+            <div id="social-media">
+                <h3>Social Media</h3>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit us on Facebook (opens in a new tab)."><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://X.com" target="_blank" rel="noopener"
-                    aria-label="Visit us on Twitter / X (opens in a new tab)."><i class="fa-brands fa-twitter"></i></a> 
-            <a href="https://instagram.com" target="_blank" rel="noopener"
+                <a href="https://X.com" target="_blank" rel="noopener"
+                    aria-label="Visit us on Twitter / X (opens in a new tab)."><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit us on Instagram (opens in a new tab)."><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://youtube.com" target="_blank" rel="noopener"
+                <a href="https://youtube.com" target="_blank" rel="noopener"
                     aria-label="Check us out on Youtube (opens in a new tab)."><i class="fa-brands fa-youtube"></i></a>
-            
 
-        </div>
-    </footer>
-</div>
+
+            </div>
+        </footer>
+    </div>
     <script src="https://kit.fontawesome.com/1bf6198c27.js" crossorigin="anonymous"></script>
 </body>
 

@@ -60,18 +60,23 @@ Users will be able to find information about the purpose of the business and the
 * I confirmed that the form works as intended ands requires the correct input types.
 
 ### Bugs
-
+* 
 
 
 ### Validator Testing
 
-All pages passed validation on
+All pages passed validation on the 
 
 At first, the 
 
 ![](images/what-we-do-mobile-before.png)
 
 ### Unfixed Bugs
+
+* On tablet screens, the title text sometimes appeared to be out of line with the horizontal centre line; see below.
+
+![](images/bug-tablet-out-of-line.png)
+
 
 ## Deployment
 
