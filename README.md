@@ -20,7 +20,7 @@ Users will be able to find information about the purpose of the business and the
 
 * A "hamburger" icon shows the navigation links in a drop down menu when clicked.
 
-![](images/screenshot-dropdown.png)
+    ![](images/screenshot-dropdown.png)
 
 
 #### Navigation on Larger Screens
@@ -36,14 +36,14 @@ Users will be able to find information about the purpose of the business and the
 
 * The home page has a concise description of the business, and a call to action in the form of a "Sign up here!" button. The description benefits the user by explaining the business without overloading, and the button has the benefit of allowing them to click to the signup page in an intuitive progression.
 
-![](images/homepage-screenshot.png)
+    ![](images/homepage-screenshot.png)
 
-### "What We Do" page
+### "What We Do" Page
 
 * The "What We Do" Page explains how the business works, and the different ways the recycled products can be used. This page can overcome barriers to signing up by answering questions a user might have about what the business is.
 
-![](images/what-we-do-screenshot-1.png)
-![](images/what-we-do-screenshot-2.png)
+    ![](images/what-we-do-screenshot-1.png)
+    ![](images/what-we-do-screenshot-2.png)
 
 
 ### Signup Page
@@ -51,43 +51,79 @@ Users will be able to find information about the purpose of the business and the
 * The signup page is a simple form with fields for first name, last name, and email address. In this version of the site, the completed for goes to the CI form dump.
 
 
-![](images/signup-screenshot.png)
+    ![](images/signup-screenshot.png)
 
 ## Testing
- * I tested that the pages work in different browers: Chrome, Firefox, Safari, and Edge.
- * I checked that that the page is responsive and functions as expected on all screen sizes using the the Firefox "inspect element" tools, and tested on Samsung and iPhone hardware.
- * I confirmed that all content was readble, understandable, and placed as intended in the pages' flow.
+* I tested that the pages work in different browers: Chrome, Firefox, Safari, and Edge.
+* I checked that that the page is responsive and functions as expected on all screen sizes using the the Firefox "inspect element" tools, and tested on Samsung and iPhone hardware.
+* I confirmed that all content was readble, understandable, and placed as intended in the pages' flow.
 * I confirmed that the form works as intended ands requires the correct input types.
 
 ### Bugs
-* 
+* Several bugs were found in the header and were fixed before the main round of testing:
+    * The logo and page heading were not changing size responsively. This was fixed by changing font-size, max-width, and positions of the relevant elements and adjusting the media queries.
+    * A bug was found where the footer would leave a blank gap underneath it on mobile browsers with an adjustable search bar. This was fixed by changing the structure of the header, main, and footer to make more use of flexboxes.
+    * Loading times were slow on mobile. This was fixed; see below under Accessibility and Performance.
+
 
 
 ### Validator Testing
 
-All pages passed validation on the 
+#### HTML
+* All pages passed validation on the the official W3C validator.
 
-At first, the 
+#### CSS
 
-![](images/what-we-do-mobile-before.png)
+* The code passed validation on the Jigsaw CSS validator.
+
+#### Accessibility and Performance
+
+* All pages of the site passed the check for performance and SEO for desktop on https://pagespeed.web.dev/.
+
+    ![](images/desktop-performance.png)
+
+* At first, the code did not pass the performance check on https://pagespeed.web.dev/ for mobile. This was logged as a bug.
+
+    ![](images/what-we-do-mobile-before.png)
+
+* The performance was improved by optimising the size of images and, for the most performace-intensive image, using the <picture> element to show a different image on mobile.
+
+    ![](images/performance-mobile-after.png)
+
+
 
 ### Unfixed Bugs
 
 * On tablet screens, the title text sometimes appeared to be out of line with the horizontal centre line; see below.
+    * This bug could be fixed in a later iteration of the site.
 
-![](images/bug-tablet-out-of-line.png)
+    ![](images/bug-tablet-out-of-line.png)
 
 
 ## Deployment
 
+* The site was deployed to GitHub Pages. The steps to deploy are as follow:
+   
+   ![](images/github-pages.png)
 
+    * More information on deployment can be found here: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+    The live link can be found here: https://tenthweb.github.io/fidgetcycle/
 
 ## Credits
 
 ### Content
 
-Code for the responsive header was adapted from the CI Love Running Project and 
+* Code for importing fonts and icons was adapted from the CI Love Running Project.
+
+* Code for the responsive header was adapted from the CI Love Running Project, and user BoltClock on stackoverflow: https://stackoverflow.com/questions/8846075/css3-unchecked-pseudo-class 
+
+* Code for the transition on the buttons was taken from Alvarto Rigo here. https://alvarotrigo.com/blog/best-css-button-hover-effects/
+
+* Fonts were from Google fonts
+
+* Icons were from fontawesome.
 
 ### Media
 
-* All images were taken from Pexels and were free-to-sue.
+* All images were taken from Pexels and were free-to-use.
